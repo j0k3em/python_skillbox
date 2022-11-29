@@ -5,10 +5,10 @@ final_line = []
 finish = len(first_line)
 shift = abs(first_line.find(first_line[0]) - second_line.find(first_line[0]))
 
-for index in range(finish - shift, finish):
-    final_line.append(first_line[index])
-for index in range(0, finish - shift):
-    final_line.append(first_line[index])
+for i in range(finish - shift, finish):
+    final_line.append(first_line[i])
+for i in range(0, finish - shift):
+    final_line.append(first_line[i])
 result = ("".join(final_line))
 
 if result == second_line:

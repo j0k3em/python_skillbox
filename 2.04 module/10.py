@@ -17,7 +17,6 @@ def caesar_cipher(word):
 
 word_input = input("Введите сообщение: ")
 shift = int(input("Введите сдвиг: "))
-# print(word_list)
 result = caesar_cipher(list(word_input))
 
 print("Зашифрованное сообщение:", result)

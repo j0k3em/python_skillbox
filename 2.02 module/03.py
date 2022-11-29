@@ -5,6 +5,6 @@ for queue in range(count_of_number):
     efficiency = int(input())
     cells.append(efficiency)
 print("Неподходящие значение: ", end = "")
-for index in range(count_of_number):
-    if index > cells[index]:
-        print(cells[index], end = " ")
+for i in range(count_of_number):
+    if i > cells[i]:
+        print(cells[i], end = " ")

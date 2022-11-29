@@ -1,6 +1,6 @@
 def music_times(time):
     result = 0
-    for i_time in range(how_many):
+    for i_time in range(count_songs):
         print("Название {0} песни: ".format(i_time + 1), end = "")
         name = input()
         result += violator_songs[name]
@@ -18,6 +18,6 @@ violator_songs = {
     'Clean': 5.83
 }
 
-how_many = int(input("Сколько песен выбрать? "))
-my_music_time = music_times(how_many)
+count_songs = int(input("Сколько песен выбрать? "))
+my_music_time = music_times(count_songs)
 print("Общее время звучания песен:", my_music_time)

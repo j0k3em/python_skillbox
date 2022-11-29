@@ -5,12 +5,12 @@ for _ in range(count_of_containers):
     containers.append(container)
 print()
 new_containers = int(input("Введите вес нового контейнера: "))
-for index in range(count_of_containers):
-    if containers[index] >= new_containers:
+for i in range(count_of_containers):
+    if containers[i] >= new_containers:
         continue
     else:
-        print("Номер, куда встанет новый контейнер:", index + 1)
-        containers.insert(index, new_containers)
+        print("Номер, куда встанет новый контейнер:", i + 1)
+        containers.insert(i, new_containers)
         break
 
 print(containers)

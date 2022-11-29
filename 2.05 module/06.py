@@ -1,9 +1,8 @@
-s = input("Введите строку: ")
+line = input("Введите строку: ")
 def zip(text):
     result = []
     result.append([text[0]])
     list_count = 0
-    # print(len(text))
     for num in range(len(text)):
         for sum in range (num + 1, len(text)):
             if text[num] == text[sum]:
@@ -17,4 +16,4 @@ def zip(text):
     print(result)
 
 
-print("Закодированная строка:", zip(s))
+print("Закодированная строка:", zip(line))

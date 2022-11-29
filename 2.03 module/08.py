@@ -9,8 +9,6 @@ while len(players_list) > 1:
     print("Текущий круг людей:", players_list)
     begin_number = int(input("Начало счёта с номера "))
     count = players_list.index(begin_number)
-    # print(count)
-    # print(len(players_list))
     for _ in range(number_game):
         count += 1
         if count == len(players_list):
