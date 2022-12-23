@@ -1,0 +1,3 @@
+23.12.2022 20:21:14 first_func IndexError
+23.12.2022 20:21:14 second_func ZeroDivisionError
+23.12.2022 20:21:14 third_func ValueError
